@@ -1,0 +1,30 @@
+main {
+    max-width: 900px;
+    width: 90%;
+    padding: 5px;
+    margin: auto;
+    display: grid;
+    border: 1px solid black;
+    border-width: 2px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+    color: black;
+  }
+  td, th {
+    border-bottom: 1px solid grey;
+    text-align: left;
+    padding: 3px;
+  }
+
+  caption {
+    font-size: larger;
+    text-decoration: underline;
+    color: darkred;
+  }
