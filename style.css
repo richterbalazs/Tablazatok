@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 main {
     max-width: 900px;
     width: 90%;
@@ -27,4 +33,18 @@ tr:nth-child(even) {
     font-size: larger;
     text-decoration: underline;
     color: darkred;
+  }
+
+  @media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+
+    nav ul {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    #s2 {
+        grid-template-columns: 1fr;
+    }
   }
